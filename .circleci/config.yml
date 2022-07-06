@@ -6,11 +6,6 @@ version: 2
 
 orbs:
   codecov: codecov/codecov@3.2.3
-workflows:
-  upload-to-codecov:
-    jobs:
-        - checkout
-        - codecov/upload
 
 jobs:
   build:
